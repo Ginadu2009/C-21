@@ -20,8 +20,9 @@ function setup(){
     bloco3 = createSprite(495,580,160,30);
     bloco3.shapeColor = "green";
 
-    bloco3 = createSprite(795,580,60,30);
-    bloco3.shapeColor = "yellow";
+    bloco4 = createSprite(695,580,160,30);
+    bloco4.shapeColor = "yellow";
+
 
     bola = createSprite(random(20,750),100, 40,40);
     bola.shapeColor = rgb(255,255,255);
